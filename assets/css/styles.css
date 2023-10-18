@@ -1,0 +1,102 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Varibles CSS */
+:root {
+
+    /* Colors */
+    --primary-color: #FFFFFF;
+    --second-color: #252B42;
+    --text-primary-color: #252B42;
+    --text-second-color: #212121;
+    
+    /* Font and Typography */
+    --body-font: 'Poppins', sans-serif;
+    --biggest-font-size: 3rem;
+    --big-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem
+
+    /* Font Weight */
+    --font-regular: 400;
+    --font-medium: 500;
+
+    /* z-index */
+    -z--tooltip: 10;
+    -z--fixed: 100; 
+}
+
+/* Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    font-size: var(--h2-font-size);
+    background-color: var(--second-color);
+    color: var(--primary-color);
+    
+    padding: 1.5rem;
+    height: 4rem;
+}
+
+.section__tel,
+.section__mail,
+.section__media
+ {
+    padding: 1rem;
+}
+
+
+.section__left,
+.section__center,
+.section__right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    height: 5.5rem;
+}
+
+.container-fluid,
+.navbar-collapse {
+    padding: 5rem;
+}
+
+.nav-title {
+    font-size: var(--big-font-size);
+    font-weight: bold;
+}
+
+.navbar-brand {
+    padding: 2rem;
+}
+
+.nav-item {
+    font-size: var(--h2-font-size);
+}
